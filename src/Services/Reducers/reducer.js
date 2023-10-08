@@ -3,6 +3,7 @@ import { ADD_TO_CART } from '../constants';
 const initialState = {
     cartData : []
 }
+
 export default cartItems = (state = initialState, action) => {
     switch (action.type) {
         case ADD_TO_CART:
