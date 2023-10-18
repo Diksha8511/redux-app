@@ -11,6 +11,8 @@ import {Provider} from 'react-redux'
 import rootReducer from './services/reducers/rootReducer';
 
 const store = createStore(rootReducer)
+
+console.warn("store",store);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
